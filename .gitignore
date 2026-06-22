@@ -1,0 +1,81 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+publish/
+
+# NuGet packages / generated packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+packages/
+
+# Keep NuGet lock files if you use locked restore
+!packages.lock.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+*.sln.docstates
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Test output
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.secrets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Generated docs/site output
+_site/
+docs/_site/
+
+# Local database / scratch files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local CSV scratch data
+scratch/
+local-data/

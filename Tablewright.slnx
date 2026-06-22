@@ -1,0 +1,11 @@
+<Solution>
+    <Folder Name="/src/">
+        <Project Path="src/Tablewright.Cli/Tablewright.Cli.csproj"/>
+        <Project Path="src/Tablewright.Csv/Tablewright.Csv.csproj"/>
+        <Project Path="src/Tablewright/Tablewright.csproj"/>
+    </Folder>
+    <Folder Name="/tests/">
+        <Project Path="tests/Tablewright.Csv.Tests/Tablewright.Csv.Tests.csproj"/>
+        <Project Path="tests/Tablewright.Tests/Tablewright.Tests.csproj"/>
+    </Folder>
+</Solution>
