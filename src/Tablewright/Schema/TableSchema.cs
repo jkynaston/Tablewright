@@ -184,8 +184,8 @@ public sealed class TableSchema
 
         diagnostics.AddRange(
             primaryKey
-                .Where(columnName => !string.IsNullOrWhiteSpace(columnName))
-                .Select(columnName => new TableDiagnostic(
+                .Where(string.IsNullOrWhiteSpace)
+                .Select(_ => new TableDiagnostic(
                     SchemaDiagnosticCodes.EmptyPrimaryKeyColumn,
                     DiagnosticSeverity.Error,
                     new DiagnosticLocation.Schema(),
